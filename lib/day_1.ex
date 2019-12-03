@@ -6,7 +6,7 @@ defmodule Day1 do
     |> Enum.sum()
   end
 
-  def part1(inputs) do
+  def part2(inputs) do
     inputs
     |> parse()
     |> Stream.map(fn mass ->
